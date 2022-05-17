@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Banner from './Banner';
 import OptionTable from './OptionTable';
 import './Option.css';
+import axios from 'axios';
 
 function Option() {
 
